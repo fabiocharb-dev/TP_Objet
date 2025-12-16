@@ -1,14 +1,15 @@
 <?php
 class Actualite {
-	public $Nom;
-	public $Contenu;
-    public $Date;
+	public $nom;
+	public $contenu;
+    public $date;
 
-	public  function __construct(string $Nom, string $Contenu, date $Date)
+	public  function __construct(string $nom, string $contenu, date $date)
 	{
-		$this -> Nom = $Nom;
-		$this -> Contenu = $Contenu;
-        $this -> Date = $Date;
+		$this -> Nom = $nom;
+		$this -> Contenu = $contenu;
+        $this -> Date = $date;
 	}
 
 }
+
