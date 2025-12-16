@@ -2,7 +2,7 @@
 class Actualite {
 	public $Nom;
 	public $Contenu;
-    public $Date
+    public $Date;
 
 	public  function __construct(string $Nom, string $Contenu, date $Date)
 	{
@@ -10,4 +10,5 @@ class Actualite {
 		$this -> Contenu = $Contenu;
         $this -> Date = $Date;
 	}
+
 }
